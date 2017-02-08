@@ -8,7 +8,6 @@
 ###  - Allow to calculate some device location using LCU if there is enough data collected(may be\should be a separate server)
 --------------------
 ### VERSION CONTROL
-###  sshpass -p 107620 ssh root@192.168.1.1
 ---------------------
 
 17/01/13    TODO
