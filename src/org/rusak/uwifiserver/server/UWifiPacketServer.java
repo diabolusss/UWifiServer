@@ -4,7 +4,6 @@ import functions.Functions;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.io.IOException;
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import org.rusak.uwifiserver.run.UWifiServerMain;

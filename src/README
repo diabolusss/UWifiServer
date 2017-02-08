@@ -1,4 +1,12 @@
-----------------
+--------------------
+### ABOUT
+### Java based multithreaded server
+###  - Allow to connect up to X clients
+###     - Clients are OpenWRT routers that monitors WiFi network devices and interceipts their packets
+###     - These packets are sent to Java server and processed as Horst packets
+###     - Then this packets are stored to MySQLDB
+###  - Allow to calculate some device location using LCU if there is enough data collected(may be\should be a separate server)
+--------------------
 ### VERSION CONTROL
 ###  sshpass -p 107620 ssh root@192.168.1.1
 ---------------------
