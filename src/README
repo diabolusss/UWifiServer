@@ -1,0 +1,26 @@
+----------------
+### VERSION CONTROL
+###  sshpass -p 107620 ssh root@192.168.1.1
+---------------------
+
+17/01/13    TODO
+    > Add monitoring loop to UWifiServerMain class to check threads status
+    > if all threads are stopped, then destroy\create threads
+    > otherwise it hangs
+
+17/01/18    ADDED 
+    > Location note for monitor
+    > Data must be checked by zones
+
+17/01/11    ADDED
+    > Add new monitor to DB.wifi_monitors
+    > Save locally this monitor data to exclude excessive I\O to DB, i.e. 
+    >  monitor_mac is UNIQUE, so there is no need to save it each time.
+
+17/01/11    ADDED
+    > Averages received data for 1 second. And saves aggregated value to the DB.
+    > Parses server configuration from external .conf file. If no such exist
+    >   uses config packaged inside /resources folder.
+
+16/12/23    ADDED
+    > Accepts connections from external clients 
